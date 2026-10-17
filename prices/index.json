@@ -2,191 +2,939 @@
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
  "asOf": "2026-10-17",
- "rule": "best score across a model's listed settings",
+ "manualAsOf": "2026-10-10",
+ "rule": "every listed setting kept; index = best setting",
  "models": {
   "claude-3-5-haiku": {
    "name": "Claude 3.5 Haiku",
-   "index": 8.9
+   "index": 8.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 8.9,
+     "source": "api"
+    }
+   ]
   },
   "claude-fable-5-1": {
-   "name": "Claude Fable 5.1 (Max, Default Fallback)",
-   "index": 53.4
+   "name": "Claude Fable 5.1",
+   "index": 53.4,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 53.4,
+     "source": "api"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 53.0,
+     "source": "manual"
+    },
+    {
+     "setting": "High",
+     "index": 51.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Medium",
+     "index": 48.9,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 46.8,
+     "source": "api"
+    }
+   ]
+  },
+  "claude-haiku-4-5": {
+   "name": "claude-haiku-4-5",
+   "index": 17.0,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 17.0,
+     "source": "manual"
+    }
+   ]
   },
   "claude-haiku-5-5": {
-   "name": "Claude Haiku 5.5 (Xhigh)",
-   "index": 41.2
+   "name": "Claude Haiku 5.5",
+   "index": 43.0,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 43.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 41.2,
+     "source": "api"
+    },
+    {
+     "setting": "High",
+     "index": 37.8,
+     "source": "api"
+    },
+    {
+     "setting": "Medium",
+     "index": 34.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Low",
+     "index": 29.5,
+     "source": "api"
+    }
+   ]
   },
   "claude-opus-4-5": {
-   "name": "Claude Opus 4.5 (Reasoning)",
-   "index": 29.1
+   "name": "Claude Opus 4.5",
+   "index": 29.1,
+   "variants": [
+    {
+     "setting": "Reasoning",
+     "index": 29.1,
+     "source": "api"
+    },
+    {
+     "setting": "Non-reasoning",
+     "index": 23.7,
+     "source": "api"
+    }
+   ]
   },
   "claude-opus-4-6": {
-   "name": "Claude Opus 4.6 (Non-reasoning, High)",
-   "index": 26.4
+   "name": "Claude Opus 4.6",
+   "index": 26.4,
+   "variants": [
+    {
+     "setting": "Non-reasoning High",
+     "index": 26.4,
+     "source": "api"
+    }
+   ]
   },
   "claude-opus-4-7": {
-   "name": "Claude Opus 4.7 (Non-reasoning, High)",
-   "index": 30.9
+   "name": "Claude Opus 4.7",
+   "index": 30.9,
+   "variants": [
+    {
+     "setting": "Non-reasoning High",
+     "index": 30.9,
+     "source": "api"
+    }
+   ]
   },
   "claude-opus-5": {
-   "name": "Claude Opus 5 (Xhigh)",
-   "index": 49.7
+   "name": "Claude Opus 5",
+   "index": 49.7,
+   "variants": [
+    {
+     "setting": "Xhigh",
+     "index": 49.7,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 39.4,
+     "source": "api"
+    }
+   ]
   },
   "claude-opus-5-5": {
-   "name": "Claude Opus 5.5 (Max, Default Fallback)",
-   "index": 57.6
+   "name": "Claude Opus 5.5",
+   "index": 57.6,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 57.6,
+     "source": "api"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 56.0,
+     "source": "manual"
+    },
+    {
+     "setting": "High",
+     "index": 54.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Medium",
+     "index": 51.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Low",
+     "index": 42.0,
+     "source": "manual"
+    }
+   ]
   },
   "claude-sonnet-4-6": {
-   "name": "Claude Sonnet 4.6 (Non-reasoning, High)",
-   "index": 24.7
+   "name": "Claude Sonnet 4.6",
+   "index": 24.7,
+   "variants": [
+    {
+     "setting": "Non-reasoning High",
+     "index": 24.7,
+     "source": "api"
+    }
+   ]
   },
   "claude-sonnet-5": {
-   "name": "Claude Sonnet 5 (Max)",
-   "index": 38.2
+   "name": "Claude Sonnet 5",
+   "index": 38.2,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 38.2,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 24.3,
+     "source": "api"
+    }
+   ]
   },
   "claude-sonnet-5-5": {
-   "name": "Claude Sonnet 5.5 (High, Default Fallback)",
-   "index": 46.8
+   "name": "Claude Sonnet 5.5",
+   "index": 56.0,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 56.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 52.0,
+     "source": "manual"
+    },
+    {
+     "setting": "High",
+     "index": 46.8,
+     "source": "api"
+    },
+    {
+     "setting": "Medium",
+     "index": 40.8,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 36.0,
+     "source": "manual"
+    }
+   ]
+  },
+  "deepseek-v4-pro": {
+   "name": "deepseek-v4-pro",
+   "index": 36.0,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 36.0,
+     "source": "manual"
+    }
+   ]
   },
   "gemini-2.5-flash": {
-   "name": "Gemini 2.5 Flash (Reasoning)",
-   "index": 13.1
+   "name": "Gemini 2.5 Flash",
+   "index": 13.1,
+   "variants": [
+    {
+     "setting": "Reasoning",
+     "index": 13.1,
+     "source": "api"
+    }
+   ]
   },
   "gemini-2.5-flash-lite": {
-   "name": "Gemini 2.5 Flash-Lite (Non-reasoning)",
-   "index": 6.7
+   "name": "Gemini 2.5 Flash-Lite",
+   "index": 6.7,
+   "variants": [
+    {
+     "setting": "Non-reasoning",
+     "index": 6.7,
+     "source": "api"
+    }
+   ]
   },
   "gemini-2.5-pro": {
    "name": "Gemini 2.5 Pro",
-   "index": 16.1
+   "index": 16.1,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 16.1,
+     "source": "api"
+    }
+   ]
   },
   "gemini-3.5-flash": {
-   "name": "Gemini 3.5 Flash (High)",
-   "index": 32.6
+   "name": "Gemini 3.5 Flash",
+   "index": 32.6,
+   "variants": [
+    {
+     "setting": "High",
+     "index": 32.6,
+     "source": "api"
+    },
+    {
+     "setting": "Minimal",
+     "index": 23.8,
+     "source": "api"
+    }
+   ]
   },
   "gemini-3.5-flash-lite": {
    "name": "Gemini 3.5 Flash-Lite",
-   "index": 22.2
+   "index": 22.2,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 22.2,
+     "source": "api"
+    }
+   ]
+  },
+  "gemini-3.8-flash": {
+   "name": "gemini-3.8-flash",
+   "index": 41.0,
+   "variants": [
+    {
+     "setting": "High",
+     "index": 41.0,
+     "source": "manual"
+    }
+   ]
   },
   "glm-5": {
-   "name": "GLM-5 (Reasoning)",
-   "index": 27.9
+   "name": "GLM-5",
+   "index": 27.9,
+   "variants": [
+    {
+     "setting": "Reasoning",
+     "index": 27.9,
+     "source": "api"
+    }
+   ]
+  },
+  "glm-5-free": {
+   "name": "GLM-5",
+   "index": 27.9,
+   "variants": [
+    {
+     "setting": "Reasoning",
+     "index": 27.9,
+     "source": "api"
+    }
+   ]
+  },
+  "glm-5.3": {
+   "name": "glm-5.3",
+   "index": 45.0,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 45.0,
+     "source": "manual"
+    }
+   ]
   },
   "glm-5.3-flash": {
    "name": "GLM-5.3-Flash",
-   "index": 41.8
+   "index": 41.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 41.8,
+     "source": "api"
+    }
+   ]
+  },
+  "glm-5.3-flash-free": {
+   "name": "GLM-5.3-Flash",
+   "index": 41.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 41.8,
+     "source": "api"
+    }
+   ]
   },
   "gpt-4.1": {
    "name": "GPT-4.1",
-   "index": 12.7
+   "index": 12.7,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 12.7,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5-mini": {
-   "name": "GPT-5 mini (High)",
-   "index": 16.8
+   "name": "GPT-5 mini",
+   "index": 16.8,
+   "variants": [
+    {
+     "setting": "High",
+     "index": 16.8,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5-nano": {
-   "name": "GPT-5 nano (Minimal)",
-   "index": 7.1
+   "name": "GPT-5 nano",
+   "index": 7.1,
+   "variants": [
+    {
+     "setting": "Minimal",
+     "index": 7.1,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.1-codex": {
-   "name": "GPT-5.1 Codex (High)",
-   "index": 23.7
+   "name": "GPT-5.1 Codex",
+   "index": 23.7,
+   "variants": [
+    {
+     "setting": "High",
+     "index": 23.7,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.2-codex": {
-   "name": "GPT-5.2 Codex (Xhigh)",
-   "index": 28.5
+   "name": "GPT-5.2 Codex",
+   "index": 28.5,
+   "variants": [
+    {
+     "setting": "Xhigh",
+     "index": 28.5,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.4-mini": {
-   "name": "GPT-5.4 mini (Medium)",
-   "index": 19.7
+   "name": "GPT-5.4 mini",
+   "index": 19.7,
+   "variants": [
+    {
+     "setting": "Medium",
+     "index": 19.7,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.5": {
-   "name": "GPT-5.5 (Xhigh)",
-   "index": 38.4
+   "name": "GPT-5.5",
+   "index": 38.4,
+   "variants": [
+    {
+     "setting": "Xhigh",
+     "index": 38.4,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.6-luna": {
-   "name": "GPT-5.6 Luna (Max)",
-   "index": 37.3
+   "name": "GPT-5.6 Luna",
+   "index": 37.3,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 37.3,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 21.0,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.6-sol": {
-   "name": "GPT-5.6 Sol (Low)",
-   "index": 33.5
+   "name": "GPT-5.6 Sol",
+   "index": 33.5,
+   "variants": [
+    {
+     "setting": "Low",
+     "index": 33.5,
+     "source": "api"
+    }
+   ]
   },
   "gpt-5.6-terra": {
-   "name": "GPT-5.6 Terra (Medium)",
-   "index": 30.1
+   "name": "GPT-5.6 Terra",
+   "index": 42.0,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 42.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 38.0,
+     "source": "manual"
+    },
+    {
+     "setting": "High",
+     "index": 34.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Medium",
+     "index": 30.1,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 27.0,
+     "source": "manual"
+    }
+   ]
   },
   "gpt-6-astra": {
-   "name": "GPT-6 Astra (Max)",
-   "index": 52.7
+   "name": "GPT-6 Astra",
+   "index": 52.7,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 52.7,
+     "source": "api"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 52.4,
+     "source": "api"
+    },
+    {
+     "setting": "High",
+     "index": 51.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Medium",
+     "index": 50.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Low",
+     "index": 46.0,
+     "source": "manual"
+    }
+   ]
   },
   "gpt-6-luna": {
-   "name": "GPT-6 Luna (Xhigh)",
-   "index": 34.6
+   "name": "GPT-6 Luna",
+   "index": 38.0,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 38.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 34.6,
+     "source": "api"
+    },
+    {
+     "setting": "High",
+     "index": 33.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Medium",
+     "index": 29.9,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 22.0,
+     "source": "manual"
+    }
+   ]
   },
   "gpt-6-sol": {
-   "name": "GPT-6 Sol (Low)",
-   "index": 34.2
+   "name": "GPT-6 Sol",
+   "index": 34.2,
+   "variants": [
+    {
+     "setting": "Low",
+     "index": 34.2,
+     "source": "api"
+    }
+   ]
   },
   "gpt-6.1-sol": {
-   "name": "GPT-6.1 Sol (Xhigh)",
-   "index": 51.0
+   "name": "GPT-6.1 Sol",
+   "index": 52.0,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 52.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Xhigh",
+     "index": 51.0,
+     "source": "api"
+    },
+    {
+     "setting": "High",
+     "index": 50.2,
+     "source": "api"
+    },
+    {
+     "setting": "Medium",
+     "index": 48.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Low",
+     "index": 42.0,
+     "source": "manual"
+    }
+   ]
   },
   "grok-4.6": {
-   "name": "Grok 4.6 (Medium)",
-   "index": 42.8
+   "name": "Grok 4.6",
+   "index": 42.8,
+   "variants": [
+    {
+     "setting": "Medium",
+     "index": 42.8,
+     "source": "api"
+    }
+   ]
   },
   "grok-4.7": {
-   "name": "Grok 4.7 (High)",
-   "index": 46.3
+   "name": "Grok 4.7",
+   "index": 46.3,
+   "variants": [
+    {
+     "setting": "High",
+     "index": 46.3,
+     "source": "api"
+    },
+    {
+     "setting": "Varsayılan",
+     "index": 46.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Low",
+     "index": 42.2,
+     "source": "api"
+    }
+   ]
   },
   "kimi-k2.6": {
-   "name": "Kimi K2.6 (Reasoning)",
-   "index": 27.0
+   "name": "Kimi K2.6",
+   "index": 27.0,
+   "variants": [
+    {
+     "setting": "Reasoning",
+     "index": 27.0,
+     "source": "api"
+    },
+    {
+     "setting": "Non-reasoning",
+     "index": 23.6,
+     "source": "api"
+    }
+   ]
+  },
+  "kimi-k2.7-code": {
+   "name": "kimi-k2.7-code",
+   "index": 26.0,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 26.0,
+     "source": "manual"
+    }
+   ]
+  },
+  "kimi-k3": {
+   "name": "kimi-k3",
+   "index": 44.0,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 44.0,
+     "source": "manual"
+    }
+   ]
+  },
+  "mimo-v2-omni-free": {
+   "name": "MiMo-V2-Omni-0327",
+   "index": 25.1,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 25.1,
+     "source": "api"
+    }
+   ]
+  },
+  "mimo-v2.5": {
+   "name": "MiMo-V2.5",
+   "index": 21.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 21.8,
+     "source": "api"
+    }
+   ]
+  },
+  "mimo-v2.5-free": {
+   "name": "MiMo-V2.5",
+   "index": 21.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 21.8,
+     "source": "api"
+    }
+   ]
   },
   "mimo-v2.5-pro": {
-   "name": "MiMo-V2.5-Pro (Reasoning)",
-   "index": 26.0
+   "name": "MiMo-V2.5-Pro",
+   "index": 26.0,
+   "variants": [
+    {
+     "setting": "Reasoning",
+     "index": 26.0,
+     "source": "api"
+    }
+   ]
   },
   "mimo-v2.6-flash": {
    "name": "MiMo-V2.6-Flash",
-   "index": 37.9
+   "index": 37.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 37.9,
+     "source": "api"
+    }
+   ]
+  },
+  "mimo-v2.6-flash-free": {
+   "name": "MiMo-V2.6-Flash",
+   "index": 37.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 37.9,
+     "source": "api"
+    }
+   ]
   },
   "mimo-v2.6-pro": {
    "name": "MiMo-V2.6-Pro",
-   "index": 46.3
+   "index": 46.3,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 46.3,
+     "source": "api"
+    }
+   ]
   },
   "minimax-m2.1": {
    "name": "MiniMax-M2.1",
-   "index": 20.9
+   "index": 20.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 20.9,
+     "source": "api"
+    }
+   ]
+  },
+  "minimax-m2.1-free": {
+   "name": "MiniMax-M2.1",
+   "index": 20.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 20.9,
+     "source": "api"
+    }
+   ]
   },
   "minimax-m2.5": {
    "name": "MiniMax-M2.5",
-   "index": 22.8
+   "index": 22.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 22.8,
+     "source": "api"
+    }
+   ]
+  },
+  "minimax-m2.5-free": {
+   "name": "MiniMax-M2.5",
+   "index": 22.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 22.8,
+     "source": "api"
+    }
+   ]
   },
   "minimax-m3": {
    "name": "MiniMax-M3",
-   "index": 29.2
+   "index": 29.2,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 29.2,
+     "source": "api"
+    }
+   ]
+  },
+  "minimax-m3-free": {
+   "name": "MiniMax-M3",
+   "index": 29.2,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 29.2,
+     "source": "api"
+    }
+   ]
   },
   "mistral-large-4": {
    "name": "Mistral Large 4 Preview",
-   "index": 38.4
+   "index": 38.4,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 38.4,
+     "source": "api"
+    }
+   ]
   },
   "muse-spark-1.2": {
-   "name": "Muse Spark 1.2 (Xhigh)",
-   "index": 39.6
+   "name": "Muse Spark 1.2",
+   "index": 39.6,
+   "variants": [
+    {
+     "setting": "Xhigh",
+     "index": 39.6,
+     "source": "api"
+    }
+   ]
+  },
+  "nemotron-3.5-lightning-free": {
+   "name": "Nemotron 3.5 Lightning",
+   "index": 12.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 12.9,
+     "source": "api"
+    }
+   ]
+  },
+  "north-mini-code-free": {
+   "name": "North Mini Code",
+   "index": 9.9,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 9.9,
+     "source": "api"
+    }
+   ]
   },
   "o1": {
    "name": "o1-preview",
-   "index": 11.4
+   "index": 11.4,
+   "variants": [
+    {
+     "setting": "Preview",
+     "index": 11.4,
+     "source": "api"
+    }
+   ]
   },
   "o3": {
    "name": "o3",
-   "index": 20.2
+   "index": 20.2,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 20.2,
+     "source": "api"
+    }
+   ]
   },
   "o3-mini": {
    "name": "o3-mini",
-   "index": 12.5
+   "index": 12.5,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 12.5,
+     "source": "api"
+    },
+    {
+     "setting": "High",
+     "index": 11.0,
+     "source": "api"
+    }
+   ]
+  },
+  "qwen3.8-max": {
+   "name": "qwen3.8-max",
+   "index": 45.0,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 45.0,
+     "source": "manual"
+    }
+   ]
+  },
+  "step-5-preview": {
+   "name": "Step 5 Preview",
+   "index": 43.7,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 43.7,
+     "source": "api"
+    }
+   ]
+  },
+  "step-5-preview-free": {
+   "name": "Step 5 Preview",
+   "index": 43.7,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 43.7,
+     "source": "api"
+    }
+   ]
   }
  }
 }
