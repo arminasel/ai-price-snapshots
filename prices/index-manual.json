@@ -1,0 +1,27 @@
+{
+ "source": "https://artificialanalysis.ai/leaderboards/models",
+ "asOf": "2026-10-10",
+ "note": "Manual reading of the public leaderboard (per reasoning setting). Used only for model/setting pairs the free API does not return; API values always win.",
+ "models": {
+  "claude-opus-5-5": {"Low": 42, "Medium": 51, "High": 54, "Xhigh": 56, "Max": 58},
+  "claude-sonnet-5-5": {"Low": 36, "Medium": 41, "High": 47, "Xhigh": 52, "Max": 56},
+  "claude-haiku-5-5": {"Low": 29, "Medium": 34, "High": 38, "Xhigh": 41, "Max": 43},
+  "claude-fable-5-1": {"Low": 47, "Medium": 49, "High": 51, "Xhigh": 53, "Max": 53},
+  "gpt-6-astra": {"Low": 46, "Medium": 50, "High": 51, "Xhigh": 52, "Max": 53},
+  "gpt-6.1-sol": {"Low": 42, "Medium": 48, "High": 50, "Xhigh": 51, "Max": 52},
+  "gpt-5.6-terra": {"Low": 27, "Medium": 30, "High": 34, "Xhigh": 38, "Max": 42},
+  "gpt-6-luna": {"Low": 22, "Medium": 30, "High": 33, "Xhigh": 35, "Max": 38},
+  "gemini-3.8-flash": {"High": 41},
+  "claude-haiku-4-5": {"Varsayılan": 17},
+  "mimo-v2.6-pro": {"Varsayılan": 46},
+  "grok-4.7": {"Varsayılan": 46},
+  "glm-5.3": {"Varsayılan": 45},
+  "qwen3.8-max": {"Varsayılan": 45},
+  "kimi-k3": {"Varsayılan": 44},
+  "glm-5.3-flash": {"Varsayılan": 42},
+  "mimo-v2.6-flash": {"Varsayılan": 38},
+  "deepseek-v4-pro": {"Varsayılan": 36},
+  "minimax-m3": {"Varsayılan": 29},
+  "kimi-k2.7-code": {"Varsayılan": 26}
+ }
+}
