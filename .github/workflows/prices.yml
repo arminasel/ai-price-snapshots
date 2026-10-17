@@ -1,0 +1,32 @@
+name: Daily price snapshot
+
+# Fetches API list prices once a day on GitHub's runner (never from the user's PC) and commits
+# prices/history.json and prices/CHANGELOG.md only when a price changed. AI Usage Tray reads history.json from
+# raw.githubusercontent.com.
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Update prices
+        run: python scripts/update_prices.py
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain prices)" ]; then
+            git config user.name "price-snapshot[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add prices
+            git commit -m "chore(prices): snapshot $(date -u +%F)"
+            git push
+          fi
