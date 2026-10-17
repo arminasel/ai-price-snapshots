@@ -2,6 +2,7 @@
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
  "asOf": "2026-10-17",
+ "rule": "best score across a model's listed settings",
  "models": {
   "claude-3-5-haiku": {
    "name": "Claude 3.5 Haiku",
@@ -11,21 +12,25 @@
    "name": "Claude Fable 5.1 (Max, Default Fallback)",
    "index": 53.4
   },
-  "claude-haiku-4-5": {
-   "name": "Claude Haiku 4.5",
-   "index": 17
-  },
   "claude-haiku-5-5": {
-   "name": "Claude Haiku 5.5",
-   "index": 38
+   "name": "Claude Haiku 5.5 (Xhigh)",
+   "index": 41.2
   },
   "claude-opus-4-5": {
-   "name": "Claude Opus 4.5 (Non-reasoning)",
-   "index": 23.7
+   "name": "Claude Opus 4.5 (Reasoning)",
+   "index": 29.1
   },
   "claude-opus-4-6": {
    "name": "Claude Opus 4.6 (Non-reasoning, High)",
    "index": 26.4
+  },
+  "claude-opus-4-7": {
+   "name": "Claude Opus 4.7 (Non-reasoning, High)",
+   "index": 30.9
+  },
+  "claude-opus-5": {
+   "name": "Claude Opus 5 (Xhigh)",
+   "index": 49.7
   },
   "claude-opus-5-5": {
    "name": "Claude Opus 5.5 (Max, Default Fallback)",
@@ -40,12 +45,12 @@
    "index": 38.2
   },
   "claude-sonnet-5-5": {
-   "name": "Claude Sonnet 5.5",
-   "index": 47
+   "name": "Claude Sonnet 5.5 (High, Default Fallback)",
+   "index": 46.8
   },
-  "deepseek-v4-pro": {
-   "name": "DeepSeek V4 Pro",
-   "index": 36
+  "gemini-2.5-flash": {
+   "name": "Gemini 2.5 Flash (Reasoning)",
+   "index": 13.1
   },
   "gemini-2.5-flash-lite": {
    "name": "Gemini 2.5 Flash-Lite (Non-reasoning)",
@@ -63,25 +68,13 @@
    "name": "Gemini 3.5 Flash-Lite",
    "index": 22.2
   },
-  "gemini-3.8-flash": {
-   "name": "Gemini 3.8 Flash",
-   "index": 41
-  },
   "glm-5": {
    "name": "GLM-5 (Reasoning)",
    "index": 27.9
   },
-  "glm-5.3": {
-   "name": "GLM-5.3",
-   "index": 45
-  },
   "glm-5.3-flash": {
    "name": "GLM-5.3-Flash",
    "index": 41.8
-  },
-  "gpt-3.5-turbo": {
-   "name": "GPT-3.5 Turbo",
-   "index": 5.5
   },
   "gpt-4.1": {
    "name": "GPT-4.1",
@@ -91,6 +84,10 @@
    "name": "GPT-5 mini (High)",
    "index": 16.8
   },
+  "gpt-5-nano": {
+   "name": "GPT-5 nano (Minimal)",
+   "index": 7.1
+  },
   "gpt-5.1-codex": {
    "name": "GPT-5.1 Codex (High)",
    "index": 23.7
@@ -98,6 +95,10 @@
   "gpt-5.2-codex": {
    "name": "GPT-5.2 Codex (Xhigh)",
    "index": 28.5
+  },
+  "gpt-5.4-mini": {
+   "name": "GPT-5.4 mini (Medium)",
+   "index": 19.7
   },
   "gpt-5.5": {
    "name": "GPT-5.5 (Xhigh)",
@@ -107,41 +108,41 @@
    "name": "GPT-5.6 Luna (Max)",
    "index": 37.3
   },
+  "gpt-5.6-sol": {
+   "name": "GPT-5.6 Sol (Low)",
+   "index": 33.5
+  },
   "gpt-5.6-terra": {
-   "name": "GPT-5.6 Terra",
-   "index": 34
+   "name": "GPT-5.6 Terra (Medium)",
+   "index": 30.1
   },
   "gpt-6-astra": {
    "name": "GPT-6 Astra (Max)",
    "index": 52.7
   },
   "gpt-6-luna": {
-   "name": "GPT-6 Luna",
-   "index": 33
+   "name": "GPT-6 Luna (Xhigh)",
+   "index": 34.6
+  },
+  "gpt-6-sol": {
+   "name": "GPT-6 Sol (Low)",
+   "index": 34.2
   },
   "gpt-6.1-sol": {
-   "name": "GPT-6.1 Sol",
-   "index": 50
+   "name": "GPT-6.1 Sol (Xhigh)",
+   "index": 51.0
+  },
+  "grok-4.6": {
+   "name": "Grok 4.6 (Medium)",
+   "index": 42.8
   },
   "grok-4.7": {
-   "name": "Grok 4.7",
-   "index": 46
+   "name": "Grok 4.7 (High)",
+   "index": 46.3
   },
   "kimi-k2.6": {
    "name": "Kimi K2.6 (Reasoning)",
    "index": 27.0
-  },
-  "kimi-k2.7-code": {
-   "name": "Kimi K2.7 Code",
-   "index": 26
-  },
-  "kimi-k3": {
-   "name": "Kimi K3",
-   "index": 44
-  },
-  "mimo-v2.5": {
-   "name": "MiMo-V2.5",
-   "index": 21.8
   },
   "mimo-v2.5-pro": {
    "name": "MiMo-V2.5-Pro (Reasoning)",
@@ -182,14 +183,6 @@
   "o3-mini": {
    "name": "o3-mini",
    "index": 12.5
-  },
-  "qwen3.8-max": {
-   "name": "Qwen3.8 Max",
-   "index": 45
-  },
-  "step-5-preview": {
-   "name": "Step 5 Preview",
-   "index": 43.7
   }
  }
 }
