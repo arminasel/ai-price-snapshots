@@ -64,6 +64,7 @@ def main() -> int:
     # goes to the longest price-list id its slug starts with; per id the best score is kept, with that setting's name,
     # so "Güç" is always the model at its strongest setting.
     best: dict[str, dict] = {}
+    unmatched: list[str] = []
     for r in rows:
         score = (r.get("evaluations") or {}).get("artificial_analysis_intelligence_index")
         if not isinstance(score, (int, float)):
@@ -72,10 +73,12 @@ def main() -> int:
         # the rest of the slug may only name a setting; anything else ("mini", "pro", "lite" …) is a different model
         cands = [mid for mid, t in id_tok.items() if t and st[:len(t)] == t and all(x in SETTINGS for x in st[len(t):])]
         if not cands:
+            unmatched.append(str(r.get("slug") or r.get("name")))
             continue
         mid = max(cands, key=lambda m: len(id_tok[m]))
         if mid not in best or score > best[mid]["index"]:
             best[mid] = {"name": str(r.get("name") or mid)[:80], "index": round(float(score), 1)}
+    print("unmatched (no price-list id):", ", ".join(sorted(unmatched)[:200]))   # public slugs only, for mapping fixes
     if len(best) < 5:
         print(f"only {len(best)} scores matched; index unchanged")
         return 0
