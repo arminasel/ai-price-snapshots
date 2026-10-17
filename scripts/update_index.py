@@ -27,7 +27,7 @@ ENDPOINTS = ("https://artificialanalysis.ai/api/v2/language/models/free",
 
 
 SETTINGS = {"max", "xhigh", "high", "medium", "low", "minimal", "ultra", "reasoning", "non", "nonreasoning", "thinking",
-            "adaptive", "default", "fallback", "effort", "mode", "extended", "standard"}
+            "adaptive", "default", "fallback", "effort", "mode", "extended", "standard", "preview", "latest"}
 
 
 def tokens(s: str) -> list[str]:
