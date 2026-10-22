@@ -2,6 +2,13 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-10-22
+
+- opencode/flint-40b-free: yeni ($0 / $0 / $0 / —)
+- opencode/deepseek-v4-pro: $1.74 / $3.84 / $0.145 / — → $1.74 / $3.48 / $0.145 / —
+- opencode/gpt-5.6-terra: $2.5 / $15 / $0.25 / $3.125 → $2 / $12 / $0.2 / $2.5
+- opencode/kimi-k2.5: $0.6 / $3 / $0.08 / — → $0.6 / $3 / $0.1 / —
+
 ## 2026-10-21
 
 - google/gemini-pro-latest: yeni ($2 / $12 / $0.2 / —)
