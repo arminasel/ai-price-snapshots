@@ -2,6 +2,10 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-10-23
+
+- opencode-go/minimax-m3.1-flash: yeni ($0.15 / $0.6 / $0.015 / —)
+
 ## 2026-10-22
 
 - opencode/flint-40b-free: yeni ($0 / $0 / $0 / —)
