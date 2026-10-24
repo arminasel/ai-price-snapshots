@@ -2,6 +2,12 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-10-24
+
+- opencode/kimi-k3: $3 / $15 / $0.3 / — → $3 / $15 / $0.3 / $3
+- opencode-go/kimi-k3.1-pro: yeni ($2 / $10 / $0.2 / $2)
+- opencode-go/kimi-k3: $3 / $15 / $0.3 / — → $3 / $15 / $0.3 / $3
+
 ## 2026-10-23
 
 - opencode-go/minimax-m3.1-flash: yeni ($0.15 / $0.6 / $0.015 / —)
