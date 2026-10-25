@@ -2,6 +2,11 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-10-25
+
+- opencode-go/gemini-4-argon: yeni ($2 / $10 / $0.1 / —)
+- opencode-go/iceman-contributor-free: yeni ($0 / $0 / $0 / —)
+
 ## 2026-10-24
 
 - opencode/kimi-k3: $3 / $15 / $0.3 / — → $3 / $15 / $0.3 / $3
