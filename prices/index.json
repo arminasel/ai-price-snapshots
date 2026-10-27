@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-10-17",
+ "asOf": "2026-10-27",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -605,6 +605,17 @@
      "setting": "Low",
      "index": 42.0,
      "source": "manual"
+    }
+   ]
+  },
+  "gpt-6.1-terra": {
+   "name": "GPT-6.1 Terra",
+   "index": 33.5,
+   "variants": [
+    {
+     "setting": "Non-reasoning",
+     "index": 33.5,
+     "source": "api"
     }
    ]
   },

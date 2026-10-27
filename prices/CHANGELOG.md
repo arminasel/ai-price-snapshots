@@ -2,6 +2,10 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-10-27
+
+- openai/gpt-6.1-terra: yeni ($1 / $5 / $0.05 / $1.25)
+
 ## 2026-10-25
 
 - opencode-go/gemini-4-argon: yeni ($2 / $10 / $0.1 / —)
