@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-10-28",
+ "asOf": "2026-10-29",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -433,7 +433,7 @@
    "index": 25.3,
    "variants": [
     {
-     "setting": "Varsayılan",
+     "setting": "Preview",
      "index": 25.3,
      "source": "api"
     }

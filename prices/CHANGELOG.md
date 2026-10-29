@@ -2,6 +2,11 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-10-29
+
+- google/gemini-3-pro-image-preview: listeden çıktı
+- google/gemini-3.1-flash-image-preview: listeden çıktı
+
 ## 2026-10-27
 
 - openai/gpt-6.1-terra: yeni ($1 / $5 / $0.05 / $1.25)
