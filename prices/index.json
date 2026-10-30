@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-10-29",
+ "asOf": "2026-10-30",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -185,13 +185,24 @@
    ]
   },
   "glm-5.3-flash": {
-   "name": "glm-5.3-flash",
-   "index": 42.0,
+   "name": "GLM-5.3-Flash",
+   "index": 27.8,
    "variants": [
     {
      "setting": "Varsayılan",
-     "index": 42.0,
-     "source": "manual"
+     "index": 27.8,
+     "source": "api"
+    }
+   ]
+  },
+  "glm-5.3-flash-free": {
+   "name": "GLM-5.3-Flash",
+   "index": 27.8,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 27.8,
+     "source": "api"
     }
    ]
   },
@@ -429,12 +440,28 @@
    ]
   },
   "mistral-large-4": {
-   "name": "Mistral Large 4 Preview",
+   "name": "Mistral Large 4",
    "index": 25.3,
    "variants": [
     {
      "setting": "Preview",
      "index": 25.3,
+     "source": "api"
+    },
+    {
+     "setting": "Medium",
+     "index": 23.1,
+     "source": "api"
+    }
+   ]
+  },
+  "nemotron-3.5-lightning-free": {
+   "name": "Nemotron 3.5 Lightning",
+   "index": 5.5,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 5.5,
      "source": "api"
     }
    ]
