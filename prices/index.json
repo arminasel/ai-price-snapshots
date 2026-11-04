@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-10-30",
+ "asOf": "2026-11-04",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -21,17 +21,17 @@
     },
     {
      "setting": "Max",
-     "index": 49.0,
+     "index": 49.2,
      "source": "api"
     },
     {
      "setting": "Medium",
-     "index": 43.0,
+     "index": 43.2,
      "source": "api"
     },
     {
      "setting": "Low",
-     "index": 38.5,
+     "index": 38.7,
      "source": "api"
     }
    ]
@@ -58,7 +58,7 @@
     },
     {
      "setting": "Xhigh",
-     "index": 34.3,
+     "index": 34.6,
      "source": "api"
     },
     {
@@ -68,7 +68,7 @@
     },
     {
      "setting": "High",
-     "index": 29.6,
+     "index": 29.9,
      "source": "api"
     },
     {
@@ -80,11 +80,11 @@
   },
   "claude-opus-5-5": {
    "name": "Claude Opus 5.5",
-   "index": 58.4,
+   "index": 59.1,
    "variants": [
     {
      "setting": "Max",
-     "index": 58.4,
+     "index": 59.1,
      "source": "api"
     },
     {
@@ -125,7 +125,7 @@
     },
     {
      "setting": "High",
-     "index": 41.1,
+     "index": 41.5,
      "source": "api"
     },
     {
@@ -135,7 +135,7 @@
     },
     {
      "setting": "Medium",
-     "index": 30.3,
+     "index": 30.8,
      "source": "api"
     }
    ]
@@ -284,7 +284,7 @@
     },
     {
      "setting": "Xhigh",
-     "index": 23.3,
+     "index": 23.5,
      "source": "api"
     },
     {
@@ -294,18 +294,18 @@
     },
     {
      "setting": "Medium",
-     "index": 18.3,
+     "index": 18.5,
      "source": "api"
     }
    ]
   },
   "gpt-6.1-sol": {
    "name": "GPT-6.1 Sol",
-   "index": 52.3,
+   "index": 52.5,
    "variants": [
     {
      "setting": "Xhigh",
-     "index": 52.3,
+     "index": 52.5,
      "source": "api"
     },
     {
@@ -315,7 +315,7 @@
     },
     {
      "setting": "High",
-     "index": 50.2,
+     "index": 50.3,
      "source": "api"
     },
     {
@@ -332,11 +332,11 @@
   },
   "gpt-6.1-terra": {
    "name": "GPT-6.1 Terra",
-   "index": 30.4,
+   "index": 30.5,
    "variants": [
     {
      "setting": "Non-reasoning",
-     "index": 30.4,
+     "index": 30.5,
      "source": "api"
     }
    ]
@@ -352,12 +352,12 @@
     },
     {
      "setting": "High",
-     "index": 35.0,
+     "index": 35.2,
      "source": "api"
     },
     {
      "setting": "Low",
-     "index": 30.9,
+     "index": 31.1,
      "source": "api"
     }
    ]
@@ -419,22 +419,22 @@
   },
   "minimax-m3": {
    "name": "MiniMax-M3",
-   "index": 18.7,
+   "index": 18.9,
    "variants": [
     {
      "setting": "Varsayılan",
-     "index": 18.7,
+     "index": 18.9,
      "source": "api"
     }
    ]
   },
   "minimax-m3-free": {
    "name": "MiniMax-M3",
-   "index": 18.7,
+   "index": 18.9,
    "variants": [
     {
      "setting": "Varsayılan",
-     "index": 18.7,
+     "index": 18.9,
      "source": "api"
     }
    ]

@@ -2,6 +2,10 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-04
+
+- opencode/crouton-alpha-free: yeni ($0 / $0 / $0 / —)
+
 ## 2026-11-03
 
 - opencode/pulse-alpha-free: yeni ($0 / $0 / $0 / —)
