@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-11-04",
+ "asOf": "2026-11-05",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -202,6 +202,17 @@
     {
      "setting": "Varsayılan",
      "index": 27.8,
+     "source": "api"
+    }
+   ]
+  },
+  "gpt-5.6-luna": {
+   "name": "GPT-5.6 Luna",
+   "index": 23.8,
+   "variants": [
+    {
+     "setting": "Max",
+     "index": 23.8,
      "source": "api"
     }
    ]
