@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-11-05",
+ "asOf": "2026-11-06",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -473,6 +473,17 @@
     {
      "setting": "Varsayılan",
      "index": 5.5,
+     "source": "api"
+    }
+   ]
+  },
+  "north-mini-code-free": {
+   "name": "North Mini Code",
+   "index": 3.4,
+   "variants": [
+    {
+     "setting": "Varsayılan",
+     "index": 3.4,
      "source": "api"
     }
    ]
