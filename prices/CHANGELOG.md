@@ -2,6 +2,11 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-07
+
+- opencode/iceman-free: yeni ($0 / $0 / $0 / —)
+- opencode/inkling-2-small-free: yeni ($0 / $0 / $0 / $0)
+
 ## 2026-11-06
 
 - opencode-go/crouton-alpha-free: yeni ($0 / $0 / $0 / —)
