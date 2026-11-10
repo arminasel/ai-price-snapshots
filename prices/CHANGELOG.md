@@ -2,6 +2,18 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-10
+
+- anthropic/claude-fable-5-2: yeni ($8 / $40 / $0.2 / $10)
+- opencode/claude-fable-5-2: yeni ($8 / $40 / $0.2 / $10)
+- opencode/longcat-2.5-free: yeni ($0 / $0 / $0 / —)
+- opencode/muse-ember-1.0: yeni ($0.1 / $0.5 / $0.004 / $0)
+- opencode/claude-sonnet-5-5: $2 / $10 / $0.2 / $2.5 → $2 / $10 / $0.1 / $2.5
+- opencode/gemini-3.6-flash: $1.5 / $7.5 / $0.15 / — → $0.75 / $3.75 / $0.075 / —
+- opencode/gemini-3.7-flash: $1.5 / $7.5 / $0.15 / — → $0.75 / $3.75 / $0.075 / —
+- opencode/gemini-3.8-flash: $1.5 / $7.5 / $0.15 / — → $0.75 / $3.75 / $0.075 / —
+- opencode-go/longcat-2.5-free: yeni ($0 / $0 / $0 / —)
+
 ## 2026-11-07
 
 - opencode/iceman-free: yeni ($0 / $0 / $0 / —)
