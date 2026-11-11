@@ -2,6 +2,11 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-11
+
+- google/gemini-4-carbon: yeni ($2 / $10 / $0.1 / —)
+- opencode/gemini-4-carbon: yeni ($2 / $10 / $0.1 / —)
+
 ## 2026-11-10
 
 - anthropic/claude-fable-5-2: yeni ($8 / $40 / $0.2 / $10)

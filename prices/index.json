@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-11-10",
+ "asOf": "2026-11-11",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -181,6 +181,17 @@
      "setting": "High",
      "index": 41.0,
      "source": "manual"
+    }
+   ]
+  },
+  "gemini-4-carbon": {
+   "name": "Gemini 4 Carbon",
+   "index": 58.3,
+   "variants": [
+    {
+     "setting": "Medium",
+     "index": 58.3,
+     "source": "api"
     }
    ]
   },
