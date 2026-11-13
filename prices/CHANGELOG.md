@@ -2,6 +2,16 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-13
+
+- google/gemini-4-hydrogen: yeni ($1.5 / $7.5 / $0.075 / —)
+- google/gemma-4-26b-a4b-it: yeni ($0 / $0 / — / —)
+- google/gemma-4-31b-it: yeni ($0 / $0 / — / —)
+- google/gemini-omni-flash-preview: listeden çıktı
+- openai/chatgpt-image-latest: yeni ($5 / $10 / $1.25 / —)
+- openai/gpt-image-1.5: yeni ($5 / $10 / $1.25 / —)
+- opencode/gemini-4-hydrogen: yeni ($1.5 / $7.5 / $0.075 / —)
+
 ## 2026-11-11
 
 - google/gemini-4-carbon: yeni ($2 / $10 / $0.1 / —)
