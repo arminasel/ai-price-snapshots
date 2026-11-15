@@ -2,6 +2,10 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-15
+
+- google/gemini-omni-flash-preview: yeni ($1.5 / $17.5 / — / —)
+
 ## 2026-11-13
 
 - google/gemini-4-hydrogen: yeni ($1.5 / $7.5 / $0.075 / —)
