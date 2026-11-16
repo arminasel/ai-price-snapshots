@@ -2,6 +2,17 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-16
+
+- google/gemini-2.5-flash-image: $0.3 / $30 / $0.075 / — → $0.3 / $2.5 / $0.075 / —
+- google/gemini-3-pro-image: $2 / $120 / — / — → $2 / $12 / — / —
+- google/gemini-3.1-flash-image: $0.5 / $60 / — / — → $0.5 / $3 / — / —
+- google/gemini-3.1-flash-lite-image: $0.25 / $30 / — / — → $0.25 / $1.5 / — / —
+- openai/gpt-image-2: listeden çıktı
+- opencode/hy4-flash-free: yeni ($0 / $0 / $0 / —)
+- opencode-go/hy4-flash-free: yeni ($0 / $0 / $0 / —)
+- opencode-go/qwen4-max: yeni ($1.5 / $4.5 / $0.075 / $1.875)
+
 ## 2026-11-15
 
 - google/gemini-omni-flash-preview: yeni ($1.5 / $17.5 / — / —)
