@@ -2,6 +2,13 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-18
+
+- openai/gpt-6.2-astra: yeni ($8 / $40 / $0.4 / $10)
+- openai/gpt-6.2-sol: yeni ($2 / $10 / $0.1 / $2.5)
+- opencode/gpt-6.2-astra: yeni ($8 / $40 / $0.4 / $10)
+- opencode/gpt-6.2-sol: yeni ($2 / $10 / $0.1 / $2.5)
+
 ## 2026-11-16
 
 - google/gemini-2.5-flash-image: $0.3 / $30 / $0.075 / — → $0.3 / $2.5 / $0.075 / —

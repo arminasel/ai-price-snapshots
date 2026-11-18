@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-11-11",
+ "asOf": "2026-11-18",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -370,6 +370,17 @@
     {
      "setting": "Non-reasoning",
      "index": 30.5,
+     "source": "api"
+    }
+   ]
+  },
+  "gpt-6.2-sol": {
+   "name": "GPT-6.2 Sol",
+   "index": 55.7,
+   "variants": [
+    {
+     "setting": "Xhigh",
+     "index": 55.7,
      "source": "api"
     }
    ]
