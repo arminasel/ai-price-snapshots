@@ -2,6 +2,12 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-19
+
+- google/gemini-4-neon: yeni ($3 / $15 / $0.15 / —)
+- opencode/gemini-4-neon: yeni ($3 / $15 / $0.15 / —)
+- opencode/tidepool-alpha-free: yeni ($0 / $0 / $0 / —)
+
 ## 2026-11-18
 
 - openai/gpt-6.2-astra: yeni ($8 / $40 / $0.4 / $10)

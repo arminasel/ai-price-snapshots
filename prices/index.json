@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-11-18",
+ "asOf": "2026-11-19",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -191,6 +191,22 @@
     {
      "setting": "Medium",
      "index": 58.3,
+     "source": "api"
+    }
+   ]
+  },
+  "gemini-4-neon": {
+   "name": "Gemini 4 Neon",
+   "index": 54.9,
+   "variants": [
+    {
+     "setting": "Medium",
+     "index": 54.9,
+     "source": "api"
+    },
+    {
+     "setting": "Low",
+     "index": 44.1,
      "source": "api"
     }
    ]
