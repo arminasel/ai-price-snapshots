@@ -2,6 +2,11 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-22
+
+- opencode/deepseek-v4.1-flash: $0.3 / $1.2 / $0.006 / — → $0.12 / $0.48 / $0.0024 / —
+- opencode/glm-5.3: $1.4 / $4.4 / $0.26 / — → $0.56 / $1.76 / $0.104 / —
+
 ## 2026-11-19
 
 - google/gemini-4-neon: yeni ($3 / $15 / $0.15 / —)
