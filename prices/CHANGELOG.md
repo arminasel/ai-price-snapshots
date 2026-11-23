@@ -2,6 +2,11 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-23
+
+- opencode/qwen4-max-free: yeni ($0 / $0 / $0 / $0)
+- opencode-go/longcat-2.5: yeni ($0.3 / $1.2 / $0.006 / $0)
+
 ## 2026-11-22
 
 - opencode/deepseek-v4.1-flash: $0.3 / $1.2 / $0.006 / — → $0.12 / $0.48 / $0.0024 / —
