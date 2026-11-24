@@ -1,7 +1,7 @@
 {
  "source": "https://artificialanalysis.ai",
  "attribution": "Artificial Analysis Intelligence Index",
- "asOf": "2026-11-23",
+ "asOf": "2026-11-24",
  "manualAsOf": "2026-10-10",
  "rule": "every listed setting kept; index = best setting",
  "models": {
@@ -224,10 +224,15 @@
   },
   "glm-5.3-flash": {
    "name": "GLM-5.3-Flash",
-   "index": 27.8,
+   "index": 42.0,
    "variants": [
     {
      "setting": "Varsayılan",
+     "index": 42.0,
+     "source": "manual"
+    },
+    {
+     "setting": "Max",
      "index": 27.8,
      "source": "api"
     }
@@ -238,7 +243,7 @@
    "index": 27.8,
    "variants": [
     {
-     "setting": "Varsayılan",
+     "setting": "Max",
      "index": 27.8,
      "source": "api"
     }

@@ -2,6 +2,25 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-24
+
+- google/gemini-2.5-computer-use-preview-10-2025: listeden çıktı
+- google/gemini-3.1-flash-lite-preview: listeden çıktı
+- google/gemini-omni-flash-preview: listeden çıktı
+- openai/gpt-3.5-turbo: listeden çıktı
+- openai/gpt-4: listeden çıktı
+- openai/gpt-4-turbo: listeden çıktı
+- openai/gpt-4.1-nano: listeden çıktı
+- openai/gpt-4o-2024-05-13: listeden çıktı
+- openai/gpt-5.3-codex-spark: listeden çıktı
+- openai/gpt-realtime-2.1: listeden çıktı
+- openai/o1: listeden çıktı
+- openai/o1-pro: listeden çıktı
+- openai/o3-mini: listeden çıktı
+- openai/o4-mini: listeden çıktı
+- opencode/kimi-k3.1-pro: yeni ($2 / $10 / $0.2 / $2)
+- opencode-go/hungerg-free: yeni ($0 / $0 / $0 / —)
+
 ## 2026-11-23
 
 - opencode/qwen4-max-free: yeni ($0 / $0 / $0 / $0)
