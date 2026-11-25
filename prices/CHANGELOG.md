@@ -2,6 +2,12 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-25
+
+- google/lyria-3-clip-preview: listeden çıktı
+- google/lyria-3-pro-preview: listeden çıktı
+- google/gemini-2.5-flash-image: $0.3 / $2.5 / $0.075 / — → $0.3 / $2.5 / — / —
+
 ## 2026-11-24
 
 - google/gemini-2.5-computer-use-preview-10-2025: listeden çıktı
