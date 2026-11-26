@@ -2,6 +2,14 @@
 
 Kaynak: https://models.dev/api.json (USD / 1M token: girdi / çıktı / önbellek okuma / önbellek yazma).
 
+## 2026-11-26
+
+- openai/gpt-6-astra-healthcare: yeni ($10 / $50 / $1 / —)
+- openai/gpt-6.1-sol-healthcare: yeni ($2 / $10 / $0.1 / —)
+- openai/gpt-6.2-astra-healthcare: yeni ($8 / $40 / $0.4 / $10)
+- openai/gpt-6.2-sol-healthcare: yeni ($2 / $10 / $0.1 / $2.5)
+- opencode/seaglass-alpha-free: yeni ($0 / $0 / $0 / —)
+
 ## 2026-11-25
 
 - google/lyria-3-clip-preview: listeden çıktı
